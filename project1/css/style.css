@@ -1,0 +1,413 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+section{
+    width : 100%;
+    float : left;
+}
+        
+header{
+    position: absolute;
+    top: 0;
+    z-index: 9;
+    width: 100%;
+}
+.icon{
+    max-width: 119.99px;
+   
+}
+
+.navbar{
+    justify-content: space-between !important;
+
+}
+
+    
+ul{
+ 
+    padding: 0px;
+    gap: 48px;
+    
+}
+li{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: right;
+    text-transform: capitalize;
+    color: #63605F;
+
+}
+.banner{
+    position: relative;
+    background: linear-gradient(174.45deg, #F4E7D7 -43.99%, #F4E7D7 -7.44%, #FDFAF7 95.68%);
+
+}
+.banner h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 125%;
+    color: #101118;
+    width: 762px;
+    padding: 220px 0  100px;
+    margin: 0 !important;
+}
+h1 span{
+    background: linear-gradient(to right,rgba(237, 25, 21, 1),rgba(251, 113, 3, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.banner p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #717484;
+    max-width: 544px;
+    top:0 !important;
+
+}
+   
+.banner img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.heading{
+    text-align: center;
+    padding-top: 100px;
+    margin: auto;
+    max-width: 606px;
+    padding-bottom: 86px;
+}
+   
+ .heading label{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #717484;
+
+
+}
+.heading h2{
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 135%;
+color: #312F2E;
+}
+.part3{
+            
+    background: #DEEFF1;
+    border-radius: 32px;
+    max-width: 1240px;
+    position:relative;
+    margin-bottom: 64px;
+    
+}
+.box img{
+    padding:64px 0 0 80px;
+
+}
+.but{
+    max-width: 270px;
+    border-radius: 50px;
+    position: absolute;
+    padding: 103px 0 0 516px;
+    position: absolute;
+}
+   
+
+.text h3{
+    padding: 183px 0 0  547px;
+    position: absolute;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 140%;
+    color: #312F2E;
+
+}
+.text img{
+    padding: 321px 0 0 542px;
+    position: absolute;
+}
+.img-flow{
+    padding: 240px 0 0 940px;
+    position: absolute;
+}
+
+.part4{
+    background: rgba(214, 228, 255, 0.42);
+    border-radius: 32px;
+    position: relative;
+    margin-bottom: 96px;
+
+}
+   
+.phone{
+    padding: 217.65px 0 0 587.07px;
+  
+}
+   
+
+.tab{
+    padding: 56px 0 0 704px;
+    position: absolute;
+    right: 0;
+    left: 0;
+ 
+
+}
+.explore{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 140%;
+    color: #312F2E;
+    position: absolute;
+    padding: 103px 655px 103 100px;
+}
+.part5{
+    background: linear-gradient(350.14deg, #F4E7D7 -93.72%, #F4E7D7 -68.51%, #FFFFFF 92.59%);
+     margin: auto;
+
+}
+
+.heading1{
+    text-align: center;
+     padding-bottom:66px ;
+   
+} 
+.heading1 label{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #717484;
+
+} 
+    
+.heading1 h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 135%;
+    color: #312F2E;
+}
+
+
+.cards{
+   
+    display: flex;
+    flex-direction: row;
+    gap: 41px;
+    justify-content:space-evenly;
+    padding-bottom: 48px;
+}
+.card{
+    width: 386px;
+    border-color:  #EBEBEB;
+    border-radius: 16px !important;
+    top: 0;
+}
+
+
+
+.card-text{
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+color: #717484;
+width: 322px;
+display: flex;
+justify-content: center;
+
+
+
+}
+.c1{
+    object-fit: cover;
+    width: 95px;
+    padding: 32px 0 0 32px;
+}
+.c2{
+    object-fit: cover;
+    width: 107px;
+    padding: 32px 0 0 32px;
+}
+.c3{
+    object-fit: cover;
+    width: 102px;
+    padding: 32px 0 0 32px;
+}
+.line{
+    width: 322px;
+}
+.profile h5{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+
+}
+.profile p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    color: #9C9EAA;
+}
+.orange{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+.part6{
+    background: #0D0D0D;
+}
+.subscribe h2{
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 135%;
+color: #FFFFFF;
+padding:72px 0 100px;
+margin: 0;
+
+}   
+.subscribe h6{
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+color: #BDBEC4;
+
+} 
+.button{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding-top: 90px;
+gap: 0px;
+
+}
+#mail{
+    
+width: 400px;
+height: 56px;
+background: #FFFFFF;
+border-radius: 10px 0px 0px 10px;
+padding: 13px 226px 13px 24px;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+
+}
+#submit{
+    
+padding: 16px 32px;
+width: 162px;
+height: 56px; 
+background: #FE6F46;
+box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+border-radius: 0px 10px 10px 0px;
+text-align: center;
+color: #FFFFFF;
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 150%;
+}
+.footer{
+    padding-top: 96px;
+    border-top: 1px solid white;
+}
+ .way{
+    padding-left: 100px;
+    
+ }
+ .way p{
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 160%;
+color: #BDBEC4;
+padding-top: 16px;
+padding-bottom: 32px;
+max-width: 245px;
+
+ }
+ h5{
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+color: #FFFFFF;
+ }
+ ul li{
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 160%;
+color: #BDBEC4;
+list-style-type: none;
+text-align: left !important;
+padding-top:10px;
+}
+.contact li{
+    max-width: 233px;
+}
+.contact h5{
+    max-width: 111px;
+}
+.all{
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 150%;
+color: #8F8F8F;
+padding: 90px 0 33px 0px;
+
+}
+.hand{
+
+background: #222222;
+}
+
+
+
+    
+
+
+
+        
+
+   
+ 
+
+
+   
+    
+        
+ 
+    
+    
+ 
+
+
